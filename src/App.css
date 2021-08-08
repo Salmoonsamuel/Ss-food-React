@@ -1,0 +1,82 @@
+body {
+  background-color: whitesmoke;
+  font-family: 'Courier New', Courier, monospace;
+}
+/* nav{
+  font-family: cursive;
+} */
+
+.carousel {
+  border: solid 6px black;
+  margin-bottom: 4rem;
+}
+
+
+.carousel-caption {
+    color: whitesmoke;
+    text-shadow: 3px 1px black;
+    bottom: 3rem;
+   background-color: rgba(10, 14, 10, 0.6)}
+
+#carouselButton {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 100; }
+
+.carousel-item {
+  height: 32rem;
+ }
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+  }
+.spadding{
+  padding-left: 170px;
+}
+Footer{
+   background-color: rgb(39, 34, 34);
+   padding: 20px  0 0 100px;
+   margin-top: 50px;
+}
+.card {
+  background-color: black;
+  color: white;
+
+}
+
+.form{
+  background-color: black;
+  color: white;
+}
+
+.card-title {
+  font: 500 1.25rem "Lobster", cursive;
+
+}
+::placeholder {
+  background-color:#dce5f0 ;
+  opacity: 1;
+}
+.zip{
+  color:aquamarine;
+  background-color: burlywood;
+}
+img{
+
+  width: 50rem;
+  height:30rem;
+  /* border: 2px solid blueviolet; */
+  box-shadow:  0 5px 45px rgba(228, 57, 45, 0.699);
+  /* margin-left: 8rem ; */
+}
+
+.shad{
+    box-shadow:  0 5px 45px rgba(43, 189, 152, 0.699);
+}
+.shadblue{
+    box-shadow:  0 5px 45px rgba(48, 51, 235, 0.699); 
+}
