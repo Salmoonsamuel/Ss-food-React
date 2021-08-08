@@ -44,23 +44,23 @@ class Header extends Component {
                        <Collapse isOpen={this.state.isNavOpen} navbar>
                             <Nav  className="offset-4 ">
                                 <NavItem>
-                                    <NavLink className="nav-link text-light shadblue" to="/home">
+                                    <NavLink className="nav-link text-light" to="/home">
                                         <i className="fa fa-home fa-lg " /> Home
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink className="nav-link text-light shad" to="/Info">
+                                    <NavLink className="nav-link text-light" to="/Info">
                                         <i className="fa fa-info-circle fa-lg" /> Info
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink className="nav-link text-light shad" to="/contact">
+                                    <NavLink className="nav-link text-light" to="/contact">
                                         <i className="fa fa-address-card fa-lg" /> Contact 
                                     </NavLink>
                                 </NavItem>
                             </Nav>
                             
-                            <span className="navbar-text shadblue">
+                            <span className="navbar-text">
                                 <Button  onClick={this.toggleModal}>
                                      Login
                                 </Button>
